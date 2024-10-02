@@ -1,0 +1,139 @@
+/* Estilos principais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Layout usando flexbox */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Personalização do título */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsividade e Grid na tabela */
+tr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Ajuste para 6 colunas */
+}
+
+td, th {
+  text-align: center;
+}
+
+td:last-child {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Botões de ação */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Estilo da pesquisa */
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Para centralizar o conteúdo verticalmente e horizontalmente */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Altura total da tela */
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px; /* Espaço entre o título e os outros elementos */
+}
+
+p {
+  margin-bottom: 30px; /* Espaço entre o parágrafo e os botões */
+}
+
+button {
+  margin: 10px; /* Espaço entre os botões */
+}
+
+button:first-of-type {
+  margin-right: 20px; /* Espaço extra entre o primeiro e o segundo botão */
+}
+/* App.css */
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adiciona espaço de 10px entre os botões */
+}
+
+button {
+  margin: 5px 0; /* Adiciona espaço vertical de 5px ao redor de cada botão */
+}
